@@ -3,19 +3,17 @@ spring:
     active:
     - dev
 ---
-server: 
-  port: 8201 
+
 spring:
   profiles: dev
   application: 
-    name: config-client22222
+    name: config-client1111
 eureka: 
   client: 
     service-url: 
       defaultZone: http://eureka7001.com:7001/eureka
 ---
-server: 
-  port: 8202 
+
 spring:
   profiles: test
   application: 
